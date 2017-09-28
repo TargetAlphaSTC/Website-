@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	width:915px;
+	font-size:1.2em;
+	margin:0 auto;
+	padding:100px 0;
+	color:#525252;
+}
+.content h2 {
+	color:#2F2F2F;
+}
+.drop {
+	height: 40px;
+	width:100%;
+	padding:1.5%;
+	background-color:#D9D7D7;
+	box-shadow:5px 5px 10px;
+	color:#8C8C8C;
+}
+.drop h3 {
+	line-height:40px;
+	padding:0 5% 0 5%;
+	margin:0;
+}
+.drop:hover {
+	color:#686767;
+	cursor:pointer;
+}
+.showIt {
+	width:100%;
+	padding:1.5%;
+	background-color:#D9D7D7;
+	box-shadow:5px 5px 10px;
+	color:#8C8C8C;
+}
+.showIt p {
+	padding-left:5%;
+}
+@media screen and (max-width: 915px) {
+	.content {
+		width:100%;
+	}
+	.showIt {
+		width:100%;
+	}
+	.showIt p {
+		padding:0 5% 0 5%;
+	}
+	.drop h3 {
+		font-size:1.0em;
+		padding:0 5% 0 5%;
+	}
+	.drop {
+		width:100%;
+		height:auto;
+	}
+	h2 {
+		padding-left:5%;
+	}
+}

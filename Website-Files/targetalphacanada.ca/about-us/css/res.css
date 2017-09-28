@@ -1,0 +1,39 @@
+.content {
+	width:915px;
+	font-size:1.2em;
+	margin:0 auto;
+	padding:70px 0;
+	color:#525252;
+}
+.content h2 {
+	color:#2F2F2F;
+}
+.drop {
+	text-align:center;
+	height: 40px;
+	width:100%;
+	padding:1.5%;
+	background-color:#D9D7D7;
+	box-shadow:5px 5px 10px;
+	color:#8C8C8C;
+}
+.drop h3 {
+	line-height:40px;
+	margin:0;
+}
+.drop:hover {
+	color:#686767;
+	cursor:pointer;
+}
+.showIt {
+	width:100%;
+	padding:1.5%;
+	background-color:#D9D7D7;
+	box-shadow:5px 5px 10px;
+	color:#8C8C8C;
+}
+@media screen and (max-width: 915px) {
+	.content {
+		width:90%;
+	}
+}

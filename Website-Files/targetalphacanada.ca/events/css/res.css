@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.content {
+	width:915px;
+	font-size:1.2em;
+	margin:0 auto;
+	padding:100px 0;
+	color:#525252;
+}
+.content h2 {
+	color:#2F2F2F;
+}
+.content h3 {
+	padding-bottom:20px;
+}
+.content button {
+	font-size:1.1em;
+	width:30%;
+	height:auto;
+	padding:15px 10px;
+	border-radius:10px;
+	border:none;
+	box-shadow:none;
+	background-color:#044237;
+	box-shadow:1px 5px 30px #000;
+	color:#FFF;
+}
+
+.content button:hover {
+	background-color:#279494;
+}
+
+span {
+	font-size:1.0em;
+	color:#989898;
+}
+
+.textAlign {
+	text-align:center;
+}
+
+.AlphaHacksFAQ {
+        width:100%;
+	padding:30px 0;
+}
+
+.bothColumns {
+	float:left;
+	padding:0;
+	width:49%;
+}
+
+@media screen and (max-width: 940px) {
+	.content {
+		width:90%;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.bothColumns {
+		width:100%;
+	}
+}
